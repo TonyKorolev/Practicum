@@ -49,3 +49,8 @@ int[] GenerateNewArray(int[] array)
     return resultArray;
 }
 
+int[] workArray = new int[10];
+FillArray(workArray);
+PrintArray(workArray);
+int[] resultArray = GenerateNewArray(workArray);
+PrintArray(resultArray)
